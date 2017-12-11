@@ -1,8 +1,39 @@
+* {
+  font-family: 'Itim', cursive;
+}
+
 footer {
   outline: 1px solid blue;
   width: 100%;
-
 }
-menu {
+nav {
+  height: 100px;
+  background-color: black;
+}
+li {
   float: left;
+  list-style: none;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.logo {
+  margin-right: 900px;
+  margin-left: 20px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.principal {
+  height: 400px;
+  background-image: url(../assets/img/mini-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+}
+.cont {
+  background-color: green;
+}
+.right {
+  margin-left: 20px;
 }
