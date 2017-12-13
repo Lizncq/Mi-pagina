@@ -19,8 +19,7 @@
 }
 
 [class*= 'col-'] {
-  /* min-height: 15px; */
-  padding: 1em; /*15px*/
+  /* min-height: 15px; */ /*15px*/
   float: left;
   margin-right: 2%; /*Esto es el gutter */
 }
@@ -170,7 +169,7 @@ large 992px */
   }
 
   /*FALTA col-xs-7*/
-  .col-xs-8 {
+  .col-md-8 {
     width: 66.6%;
   }
 

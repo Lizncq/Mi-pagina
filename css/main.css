@@ -6,8 +6,9 @@
 }
 
 .menu {
-  height: 100px;
-  background-color: black;
+  height: 6em;
+  background-color: #000;
+  line-height: 5em;
 }
 li {
   float: left;
@@ -16,16 +17,72 @@ li {
   font-size: 20px;
 }
 .logo {
-  margin-right: 600px;
+  margin-right: 35em;
+  margin-left: 2em;
 }
 a {
   text-decoration: none;
   color: white;
 }
 .principal {
-  height: 400px;
+  height: 30em;
   background-image: url(../assets/img/mini-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.5;
+  text-align: center;
+  line-height: 10em;
+}
+h1 {
+  font-size: 80px;
+}
+.fa {
+  color:#fff;
+  background-color: #fff;
+}
+.border {
+  border: 1px solid pink;
+  border-radius: 3px;
+  text-align: center;
+}
+.caja-button-height {
+  padding: 1em;
+  background-color: gray;
+}
+.img-2 {
+  height: 200px;
+  background-image: url('../assets/img/mini-2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: pink;
+  color: gray;
+}
+.img-3 {
+  height: 200px;
+  background-image: url('../assets/img/mini-3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: pink;
+  color: gray;
+}
+.img-4 {
+  height: 200px;
+  background-image: url('../assets/img/mini-4.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: pink;
+  color: gray;
+}
+
+button {
+ background-color: aqua;
+ color: gray;
+ border: none;
+ border-radius: 5px;
+}
+footer {
+  height: 6em;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
 }
