@@ -1,15 +1,11 @@
 * {
-  font-family: 'Itim', cursive;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Itim', cursive;
 }
 
-footer {
-  outline: 1px solid blue;
-  width: 100%;
-}
-nav {
+.menu {
   height: 100px;
   background-color: black;
 }
@@ -20,8 +16,7 @@ li {
   font-size: 20px;
 }
 .logo {
-  margin-right: 900px;
-  margin-left: 20px;
+  margin-right: 600px;
 }
 a {
   text-decoration: none;
@@ -33,10 +28,4 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.5;
-}
-.cont {
-  background-color: green;
-}
-.right {
-  margin-left: 20px;
 }
