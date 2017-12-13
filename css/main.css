@@ -4,9 +4,28 @@
   box-sizing: border-box;
   font-family: 'Itim', cursive;
 }
+.fa {
+   display: none;
+ }
+ .li {
+   margin-left: 0%;
+ }
+
+@media (max-width: 767px) {
+  .fa {
+    display: inline-block;
+    color: #fff;
+  }
+  .nav {
+    display: none;
+  }
+  .li {
+    margin-left: 16.666%;
+  }
+}
 
 .menu {
-  height: 6em;
+  height: 10em;
   background-color: #000;
   line-height: 5em;
 }
@@ -17,7 +36,7 @@ li {
   font-size: 20px;
 }
 .logo {
-  margin-right: 35em;
+  margin-right: 50%;
   margin-left: 2em;
 }
 a {
@@ -34,11 +53,7 @@ a {
   line-height: 10em;
 }
 h1 {
-  font-size: 80px;
-}
-.fa {
-  color:#fff;
-  background-color: #fff;
+  font-size: 4em;
 }
 .border {
   border: 1px solid pink;
@@ -50,7 +65,7 @@ h1 {
   background-color: gray;
 }
 .img-2 {
-  height: 200px;
+  height: 20em;
   background-image: url('../assets/img/mini-2.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -58,7 +73,7 @@ h1 {
   color: gray;
 }
 .img-3 {
-  height: 200px;
+  height: 20em;
   background-image: url('../assets/img/mini-3.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -66,7 +81,7 @@ h1 {
   color: gray;
 }
 .img-4 {
-  height: 200px;
+  height: 20em;
   background-image: url('../assets/img/mini-4.jpg');
   background-repeat: no-repeat;
   background-position: center;
