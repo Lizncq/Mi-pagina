@@ -1,49 +1,59 @@
+/*Reset*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Itim', cursive;
 }
-.fa {
+
+/*estilos desktop default*/
+.fa-bars {
    display: none;
  }
- .li {
+ .offset-xs-md {
    margin-left: 0%;
  }
 
+/*estilos mobile*/
 @media (max-width: 767px) {
-  .fa {
+  .fa-bars {
     display: inline-block;
     color: #fff;
   }
-  .nav {
+  .hidden-xs {
     display: none;
   }
-  .li {
-    margin-left: 16.666%;
+  .offset-xs-md {
+    margin-left: 16.6%;
   }
 }
 
-.menu {
+/*estilos barra nav*/
+.menu-nav {
   height: 10em;
   background-color: #000;
-  line-height: 5em;
+  line-height: 6em;
 }
-li {
+nav div div ul li {
   float: left;
   list-style: none;
   margin-right: 20px;
   font-size: 20px;
 }
-.logo {
+nav div div ul li:first-child {
   margin-right: 50%;
   margin-left: 2em;
+}
+.logo {
+  font-size: 2em;
 }
 a {
   text-decoration: none;
   color: white;
 }
-.principal {
+
+/* estilos home*/
+.home {
   height: 30em;
   background-image: url(../assets/img/mini-1.jpg);
   background-repeat: no-repeat;
@@ -55,46 +65,61 @@ a {
 h1 {
   font-size: 4em;
 }
-.border {
-  border: 1px solid pink;
+
+/* estilos section*/
+.section {
+  background-color: #FA5882;
+  padding: 2em;
+  text-align: center;
+}
+section div div div ul {
+  list-style: none;
+  background-color: #FA5882;
+  padding: 4vh;
+  text-align: center;
+  height: 28.5vh;
+}
+.fa {
+  font-size: 3em;
+}
+/*estilos row three columns*/
+.box-1, .box-2, .box-3 {
+  height: 20em;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #FA5882;
+  border-radius: 3px;
+  text-align: center;
+  padding: .8em;
+}
+.box-1 {
+  background-image: url('../assets/img/mini-2.jpg');
+}
+.box-2 {
+  background-image: url('../assets/img/mini-3.jpg');
+}
+.box-3 {
+  background-image: url('../assets/img/mini-4.jpg');
+}
+
+.box-button {
+  padding: 1em;
+  background-color: gray;
   border-radius: 3px;
   text-align: center;
 }
-.caja-button-height {
-  padding: 1em;
-  background-color: gray;
-}
-.img-2 {
-  height: 20em;
-  background-image: url('../assets/img/mini-2.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: pink;
-  color: gray;
-}
-.img-3 {
-  height: 20em;
-  background-image: url('../assets/img/mini-3.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: pink;
-  color: gray;
-}
-.img-4 {
-  height: 20em;
-  background-image: url('../assets/img/mini-4.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: pink;
-  color: gray;
-}
-
 button {
- background-color: aqua;
+ font-size: 1em;
+ background-color: #01DFD7;
  color: gray;
  border: none;
  border-radius: 5px;
+ padding: .5em;
+ margin-top: .5em;
 }
+
+/*estilos footer*/
+
 footer {
   height: 6em;
   background-color: #000;
