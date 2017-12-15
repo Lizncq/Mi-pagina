@@ -179,7 +179,9 @@ large 992px */
     width: 74.5%;
   }
 
-  /*FALTA col-xs-10*/
+   .col-xs-10 {
+    width: 83.3%
+   }
   /*FALTA col-xs-11*/
 
   .col-md-12 {
